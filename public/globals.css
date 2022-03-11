@@ -1,0 +1,19 @@
+body {
+    font-family: 'poppins';
+    background: rgb(230, 232, 250);
+}
+
+nav {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 0.7px solid black;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.jurusan .list-jurusan {
+    border: 0.7px solid black;
+}
