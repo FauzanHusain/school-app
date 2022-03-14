@@ -1,3 +1,3 @@
 # school-app
-I made this application to deepen my nodejs learning, thank you
-<h1>Thank You!</h1>
+I made this application to deepen my nodejs learning :)
+<h3>Thank You!</h3>
