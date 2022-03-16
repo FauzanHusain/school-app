@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 // panggil mongodb
 require('./utils/db');
@@ -79,6 +79,6 @@ app.post('/siswa', [
     }
 });
 
-app.listen(port, () => {
-    console.log(`Server is Listening on Port ${port}`);
+app.listen(PORT) => {
+    console.log(`Server is Listening on Port ${PORT}`);
 });
