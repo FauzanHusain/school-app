@@ -79,6 +79,6 @@ app.post('/siswa', [
     }
 });
 
-app.listen(port) => {
+app.listen(port, => {
     console.log(`Server is Listening on Port ${port}`);
 });
