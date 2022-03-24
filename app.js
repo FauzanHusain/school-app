@@ -21,7 +21,7 @@ app.use(methodOverride('_method'))
 // setup ejs
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
-app.set('layout', 'layouts/layout');
+app.set('layout');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.set('trust proxy', 1);
